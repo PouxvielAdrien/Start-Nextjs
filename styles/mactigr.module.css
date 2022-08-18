@@ -1,0 +1,21 @@
+.textSuperpostion {
+    position:absolute;
+    top:220px;
+    width:900px;
+    height:400px;
+    z-index:2;
+    font-size:200%
+}
+
+.verticalGradient  {
+    font-size: 80px;
+    background: -webkit-linear-gradient(#194bb5,#009de4 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+.macTitle {
+    font-size: 58px;
+    color: white;
+}
