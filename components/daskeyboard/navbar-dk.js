@@ -1,5 +1,5 @@
 import Image from "next/image";
-import utilStyles from "../styles/utils.module.css";
+import utilStyles from "../../styles/utils.module.css";
 import Link from "next/link";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -9,15 +9,13 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 export default function NavbarDk() {
     return (
-
         <Navbar collapseOnSelect expand="lg" bg="black" variant="dark">
             <Container>
-                <Navbar.Brand href="/">
                     <Link href="/">
                         <a className="navbar-brand">
                             <Image
                                 priority
-                                src="/images/dk-logo.png"
+                                src="/images/daskeyboard/dk-logo.png"
                                 height={35}
                                 width={27}
                                 alt="dk logo"
@@ -25,7 +23,7 @@ export default function NavbarDk() {
                             />
                             <Image
                                 priority
-                                src="/images/dk-brand.png"
+                                src="/images/daskeyboard/dk-brand.png"
                                 height={35}
                                 width={226}
                                 alt="dk logo"
@@ -33,7 +31,7 @@ export default function NavbarDk() {
                             />
                         </a>
                     </Link>
-                </Navbar.Brand>
+
 
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">

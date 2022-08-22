@@ -28,6 +28,13 @@ export default function Home({ allPostsData }) {
               </Link>
           </section>
 
+          <section className={utilStyles.headingMd}>
+              <h2 className={utilStyles.headingLg}>Mojo Helpdesk</h2>
+              <Link href={"/posts/mojo"}>
+                  <a>Visit the Mojo Page</a>
+              </Link>
+          </section>
+
 
           {/*Blog : parse and display data from internal system*/}
           <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
